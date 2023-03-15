@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@null"
+    tools:context=".mainflow.LoginFragment.MainActivity">
+
+    <Toolbar
+        android:id="@+id/toolbarnewsign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_too_bar"
+        android:title="OffLine Shop"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="addone"
+
+        />
+
+    <RelativeLayout
+        android:id="@+id/rlHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarnewsign">
+
+        <ImageView
+            android:id="@+id/logoimage"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:elevation="2dp"
+            android:padding="10dp"
+            android:src="@drawable/mainlogo"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/newsigninleftpanel"
+        android:layout_width="220dp"
+        android:layout_height="480dp"
+        android:background="@drawable/shape_left_panel"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.68"
+        android:onClick="tologin"
+        >
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/newsigninrightpanel"
+        android:layout_width="220dp"
+        android:layout_height="480dp"
+        android:background="@drawable/shape_right_panel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.68"
+        android:onClick="tosignup"
+        >
+
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/loginFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/newsigninleftpanel"
+        app:layout_constraintTop_toTopOf="@+id/newsigninleftpanel">
+
+
+    </FrameLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@id/loginFrameLayout"
+        app:layout_constraintHorizontal_bias=".1"
+        app:layout_constraintLeft_toLeftOf="@id/loginFrameLayout"
+        app:layout_constraintRight_toRightOf="@id/loginFrameLayout"
+        app:layout_constraintTop_toTopOf="@id/loginFrameLayout"
+        android:onClick="tologin"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Sign Up"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@id/loginFrameLayout"
+        app:layout_constraintHorizontal_bias=".9"
+        app:layout_constraintLeft_toLeftOf="@id/loginFrameLayout"
+        app:layout_constraintRight_toRightOf="@id/loginFrameLayout"
+        app:layout_constraintTop_toTopOf="@id/loginFrameLayout"
+        android:onClick="tosignup"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/nsidonttext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have account"
+            android:gravity="right"
+            />
+
+        <TextView
+            android:id="@+id/nsisigntext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="SIGN UP"
+            android:textColor="@color/color_pink"
+            android:textSize="20dp"
+            android:onClick="tosignup"
+            android:gravity="left"
+            />
+
+        <TextView
+            android:id="@+id/nsilogintext"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="LOGIN"
+            android:textColor="@color/color_pink"
+            android:textSize="20dp"
+            android:onClick="tologin"
+            android:gravity="left"
+            />
+        <TextView
+            android:id="@+id/nsihavetext"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I already have account"
+            android:gravity="right"
+            />
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <!--    <style name="Widget.Theme.offlineshop4.ButtonBar.Fullscreen" parent="Theme.MaterialComponents.Light.NoActionBar">-->
+    <!--        <item name="android:background">@color/black_overlay</item>-->
+    <!--        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>-->
+    <!--    </style>-->
+    <!--    <style name="CostumAnimaion"  parent="@android:style/Animation.Activity">-->
+    <!--        <item name="android:activityOpenEnterAnimation">@anim/signin</item>-->
+    <!--        <item name="android:activityCloseExitAnimation">@anim/signin</item>-->
+    <!--        <item name="android:activityCloseEnterAnimation">@anim/slideout</item>-->
+    <!--        <item name="android:activityOpenExitAnimation">@anim/slideout</item>-->
+    <!--</style>-->
+    <style name="Widget.Theme.offlineshopmain.noActionBar.Fullscreen" parent="Theme.MaterialComponents.Light.NoActionBar">
+<!--        <item name="android:background">#2196F3</item>-->
+        <item name="android:background">@color/black</item>
+        <!--            <item name="android:windowAnimationStyle">@style/CostumAnimaion</item>-->
+    </style>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+<!--        <item name="android:background">@color/color_blue</item>-->
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
+</resources>

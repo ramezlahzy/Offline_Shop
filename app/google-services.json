@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "686038531771",
+    "firebase_url": "https://offline-shop-4f02a-default-rtdb.firebaseio.com",
+    "project_id": "offline-shop-4f02a",
+    "storage_bucket": "offline-shop-4f02a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686038531771:android:4d6537394ce5f41600f39e",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686038531771-53db9f3b4rk5a3v21v3s2cu6dhbo4m0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKmIy81QDyPOs6li8EN6JLaCXjkiafcXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686038531771-53db9f3b4rk5a3v21v3s2cu6dhbo4m0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686038531771:android:d688cfb49ab1182600f39e",
+        "android_client_info": {
+          "package_name": "com.example.offlineshopmain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686038531771-53db9f3b4rk5a3v21v3s2cu6dhbo4m0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKmIy81QDyPOs6li8EN6JLaCXjkiafcXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686038531771-53db9f3b4rk5a3v21v3s2cu6dhbo4m0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

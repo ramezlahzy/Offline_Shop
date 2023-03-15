@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="fav">#6B79C1</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="foshya">#FFE3315A</color>
+
+    <!--    <color name="colorPrimary">#3d93d9</color>-->
+    <!--    <color name="colorPrimaryDark">#00574B</color>-->
+    <!--    <color name="colorAccent">#D81B60</color>-->
+    <!--    <color name="colorPrimary">#536DFE</color>-->
+    <!--    <color name="colorPrimaryDark">#536DFE</color>-->
+    <!--    <color name="colorAccent">#F44336</color>-->
+    <!--    <color name="colorTextSecondary">#757575</color>-->
+    <!--    <color name="colorTextPrimary">#212121</color>-->
+    <!--    <color name="colorDivider">#BDBDBD</color>-->
+    <!--    <color name="colorWhite">#FFFFFF</color>-->
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FF5252</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorDivider">#ECECEC</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="SecondaryText">#757575</color>
+    <color name="PrimaryText">#212121</color>
+
+    <color name="color_pink">#cf4bf8</color>
+    <color name="color_violet">#8813e4</color>
+    <color name="color_blue">#3d93d9</color>
+    <color name="color_green_light">#5ff0f7</color>
+
+</resources>

@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CF191932"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#CF191932"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#CF191932"
+                >
+
+                <TextView
+                    android:id="@+id/nameOPMF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="Name Of Product"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#CF191932"
+                app:cardCornerRadius="30dp"
+                android:layout_margin="10dp"
+                >
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#CF191932"
+                    >
+
+                    <ImageView
+
+                        android:id="@+id/photoOPMF"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#CF191932"
+                        android:src="@drawable/me" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    >
+                    <ImageView
+                        android:id="@+id/star1OPMF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/star"
+                        android:background="#CF191932"
+                        />
+                    <ImageView
+                        android:id="@+id/star2OPMF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/star"
+                        android:background="#CF191932"
+                        />
+                    <ImageView
+                        android:id="@+id/star3OPMF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/star"
+                        android:background="#CF191932"
+                        />
+                    <ImageView
+                        android:id="@+id/star4OPMF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/star"
+                        android:background="#CF191932"
+                        />
+                    <ImageView
+                        android:id="@+id/star5OPMF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/star"
+                        android:background="#CF191932"
+                        />
+
+
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </androidx.cardview.widget.CardView>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        >
+        <ImageButton
+            android:id="@+id/loveOPMF"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="8dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/solidredheart"
+            android:background="#CF191932"
+            />
+
+        <ImageButton
+            android:id="@+id/dislikeOPMF"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="8dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/whitedislike"
+            android:background="#CF191932"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <ImageButton
+
+        android:id="@+id/sendOPMF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="250dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#CF191932"
+        />
+<!--    android:src="@drawable/send"-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="10dp"-->
+<!--                app:cardCornerRadius="30dp"-->
+<!--                >-->
+<!--                <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:background="@color/purple_500"-->
+<!--                    >-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="58dp"-->
+<!--                        android:orientation="horizontal"-->
+<!--                        app:layout_constraintTop_toTopOf="parent"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+
+<!--                        >-->
+<!--                        <ImageButton-->
+<!--                            android:id="@+id/loveOPMF"-->
+<!--                            android:layout_marginTop="7dp"-->
+<!--                            android:layout_marginStart="8dp"-->
+<!--                            android:layout_width="50dp"-->
+<!--                            android:visibility="gone"-->
+<!--                            android:layout_height="50dp"-->
+<!--                            android:src="@drawable/solidredheart"-->
+<!--                            android:background="@color/black"-->
+<!--                            />-->
+<!--                        <ImageButton-->
+<!--                            android:id="@+id/unloveOPMF"-->
+<!--                            android:layout_marginTop="7dp"-->
+<!--                            android:layout_marginStart="8dp"-->
+<!--                            android:layout_width="50dp"-->
+<!--                            android:background="@color/purple_500"-->
+<!--                            android:layout_height="50dp"-->
+<!--                            android:src="@drawable/whiteheart3"-->
+<!--                            />-->
+<!--                        <ImageButton-->
+<!--                            android:id="@+id/dislikeOPMF"-->
+<!--                            android:layout_marginTop="7dp"-->
+<!--                            android:layout_marginStart="8dp"-->
+<!--                            android:layout_width="50dp"-->
+<!--                            android:layout_height="50dp"-->
+<!--                            android:visibility="gone"-->
+<!--                            android:src="@drawable/whitedislike"-->
+<!--                            android:background="@color/black"/>-->
+<!--                        <ImageButton-->
+<!--                            android:id="@+id/undislikeOPMF"-->
+<!--                            android:layout_marginTop="7dp"-->
+<!--                            android:background="@color/purple_500"-->
+<!--                            android:layout_marginStart="8dp"-->
+<!--                            android:layout_width="50dp"-->
+<!--                            android:layout_height="50dp"-->
+<!--                            android:src="@drawable/undislike"-->
+<!--                            />-->
+
+
+<!--                    </LinearLayout>-->
+
+
+<!--                    <ImageButton-->
+
+<!--                        android:id="@+id/sendOPMF"-->
+<!--                        android:background="@color/purple_500"-->
+<!--                        app:layout_constraintTop_toTopOf="parent"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                        android:layout_marginTop="7dp"-->
+<!--                        android:layout_marginStart="250dp"-->
+<!--                        android:layout_width="50dp"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:src="@drawable/send"-->
+<!--                        />-->
+
+<!--                </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+
+
+
+
+
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:src="@drawable/whiteline"
+                />
+
+
+
+
+            <TextView
+                android:id="@+id/numberlikeOPMF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3300 Love"
+                android:layout_marginTop="0dp"
+                android:textSize="20dp"
+                android:layout_marginStart="7dp"
+                android:textColor="@color/white"
+                />
+<!--<androidx.cardview.widget.CardView-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_margin="15dp"-->
+<!--    app:cardCornerRadius="30dp"-->
+<!--    >-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:background="@color/fav">-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="20dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginStart="7dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:text="Description "-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:id="@+id/descrptionOPMF"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginStart="39dp"-->
+<!--            android:text="best photo mof my world i think i took before"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:id="@+id/priceOPMF"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="20dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginStart="7dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:text="Price : 300 L.E"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            />-->
+
+<!--    </LinearLayout>-->
+<!--   -->
+<!--</androidx.cardview.widget.CardView>-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="7dp"
+                android:textColor="@color/white"
+                android:text="Description "
+                />
+            <TextView
+                android:id="@+id/descrptionOPMF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="39dp"
+                android:text="best photo mof my world i think i took before"
+                />
+            <TextView
+                android:id="@+id/priceOPMF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="7dp"
+                android:textColor="@color/white"
+                android:text="Price : 300 L.E"
+                android:layout_marginBottom="20dp"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:src="@drawable/whiteline"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7dp"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:text="Comments"
+                />
+<!--<androidx.recyclerview.widget.RecyclerView-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_marginStart="40dp"-->
+<!--    android:layout_marginEnd="10dp"-->
+<!--    android:layout_marginTop="5dp"-->
+<!--    android:id="@+id/commentrecycleviewOPMF"-->
+<!--    android:background="#CF191932"-->
+
+<!--    />-->
+           <androidx.constraintlayout.widget.ConstraintLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="40dp">
+
+               <TextView
+                   android:id="@+id/userNameOPMF"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   app:layout_constraintTop_toTopOf="parent"
+                   app:layout_constraintLeft_toLeftOf="parent"
+                   android:text="User Name: "
+                   android:textColor="@color/white"
+                   android:textSize="20dp"
+                   />
+               <EditText
+                   android:id="@+id/usercommentOPMF"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:hint="Add Your Comment"
+                   app:layout_constraintTop_toBottomOf="@+id/userNameOPMF"
+                   app:layout_constraintLeft_toLeftOf="@id/userNameOPMF"
+                   android:layout_marginStart="10dp"
+                   android:textColor="@color/white"
+                   android:textColorHint="@color/white"
+                   android:textSize="10dp"
+                   />
+               <TextView
+                   android:id="@+id/postOPMF"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   app:layout_constraintRight_toRightOf="parent"
+                   app:layout_constraintBottom_toBottomOf="parent"
+                   android:background="#CF191932"
+                   android:text="Post"
+                   android:textColor="@color/light_blue_600"
+                   android:layout_marginEnd="30dp"
+                   />
+
+
+           </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+<!--        android:src="@drawable/addcomment"-->
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/all_categories_drawer"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_sheet_background"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Choose category"
+        android:textSize="18dp"
+        android:textColor="@color/PrimaryText"
+        android:textStyle="bold"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorDivider"
+
+        />
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/ACDrecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>

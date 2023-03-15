@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/LoginPanel"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/shape_login_panel"
+        android:orientation="vertical"
+        android:paddingLeft="70dp"
+        android:paddingTop="70dp"
+        android:paddingRight="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/s1ffisrtname"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="First Name"
+            android:inputType="textPersonName" />
+        <TextView
+            android:id="@+id/s1fwrotefirstname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="unaccepted name"
+            android:gravity="right"
+            android:textColor="@color/foshya"
+            />
+
+        <EditText
+            android:id="@+id/s1flastname"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Last Name"
+            android:inputType="textPersonName" />
+        <TextView
+            android:id="@+id/s1fwrotelastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="unaccepted name"
+            android:gravity="right"
+            android:textColor="@color/foshya"
+            />
+
+        <EditText
+            android:id="@+id/s1fphonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Phone Number"
+            android:inputType="phone" />
+        <TextView
+            android:id="@+id/s1fwrotephone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="unaccepted phone number"
+            android:gravity="right"
+            android:textColor="@color/foshya"
+            />
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/LoginPanel"
+        app:layout_constraintEnd_toEndOf="@id/LoginPanel"
+        app:layout_constraintStart_toStartOf="@id/LoginPanel"
+        >
+
+        <ImageButton
+            android:id="@+id/s1fcontinuebtn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/shape_login_button"></ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:text="Continue"></TextView>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
